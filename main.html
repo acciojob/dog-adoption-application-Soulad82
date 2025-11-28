@@ -7,7 +7,29 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form action="\submit-data" method="POST">
+		<label for="name">Name</label>
+		<input id="name" type="text" placeholder="Name">
+		<br>
+		<label for="phone">Phone Number</label>
+		<input id="phone" type="text" placeholder="Phone Number">
+		<br>
+		<label for="address">Adress</label>
+		<input id="address" type="text" placeholder="Address">
+		<br>
+		<label for="checkbox">Have you ever lived with a Dog before?</label>
+		<input id="checkbox" type="checkbox" value="Have you ever lived with a Dog before?">
+		<br>
+		<label for="multiselect">Please select your preferred breeds</label>
+		<select id="multiselect">
+			<option value="">--Select Breed--</option>
+			<option value="Labrador">Labrador</option>
+			<option value="Golden Retriver">Golden Retriver</option>
+			<option value="German Shepherd">German Shepherd</option>
+		</select>
+		<br>
+		<button type="submit">Submut</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
